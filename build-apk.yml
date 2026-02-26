@@ -2,7 +2,7 @@ name: Build Flutter APK
 
 on:
   push:
-    branches: [ main, work ]
+    branches: [ main ]
   workflow_dispatch:
 jobs:
   build:
